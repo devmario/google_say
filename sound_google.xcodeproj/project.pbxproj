@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0493908A174DE79B003497C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04939089174DE79B003497C2 /* UIKit.framework */; };
+		0493908C174DE79B003497C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493908B174DE79B003497C2 /* Foundation.framework */; };
+		0493908E174DE79B003497C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493908D174DE79B003497C2 /* CoreGraphics.framework */; };
+		04939094174DE79B003497C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04939092174DE79B003497C2 /* InfoPlist.strings */; };
+		04939096174DE79B003497C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04939095174DE79B003497C2 /* main.m */; };
+		0493909A174DE79B003497C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04939099174DE79B003497C2 /* AppDelegate.m */; };
+		0493909C174DE79B003497C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493909B174DE79B003497C2 /* Default.png */; };
+		0493909E174DE79B003497C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493909D174DE79B003497C2 /* Default@2x.png */; };
+		049390A0174DE79B003497C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493909F174DE79B003497C2 /* Default-568h@2x.png */; };
+		049390A3174DE79B003497C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049390A2174DE79B003497C2 /* ViewController.m */; };
+		049390A6174DE79B003497C2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049390A4174DE79B003497C2 /* ViewController_iPhone.xib */; };
+		049390A9174DE79B003497C2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049390A7174DE79B003497C2 /* ViewController_iPad.xib */; };
+		049390B6174DF892003497C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049390B5174DF892003497C2 /* AVFoundation.framework */; };
+		049390B9174E014C003497C2 /* GoogleTalk.m in Sources */ = {isa = PBXBuildFile; fileRef = 049390B8174E014C003497C2 /* GoogleTalk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04939086174DE79B003497C2 /* sound_google.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sound_google.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04939089174DE79B003497C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0493908B174DE79B003497C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0493908D174DE79B003497C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04939091174DE79B003497C2 /* sound_google-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sound_google-Info.plist"; sourceTree = "<group>"; };
+		04939093174DE79B003497C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04939095174DE79B003497C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04939097174DE79B003497C2 /* sound_google-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sound_google-Prefix.pch"; sourceTree = "<group>"; };
+		04939098174DE79B003497C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04939099174DE79B003497C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0493909B174DE79B003497C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0493909D174DE79B003497C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0493909F174DE79B003497C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		049390A1174DE79B003497C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		049390A2174DE79B003497C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		049390A5174DE79B003497C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		049390A8174DE79B003497C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		049390B5174DF892003497C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		049390B7174E014C003497C2 /* GoogleTalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTalk.h; sourceTree = "<group>"; };
+		049390B8174E014C003497C2 /* GoogleTalk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTalk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04939083174DE79B003497C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049390B6174DF892003497C2 /* AVFoundation.framework in Frameworks */,
+				0493908A174DE79B003497C2 /* UIKit.framework in Frameworks */,
+				0493908C174DE79B003497C2 /* Foundation.framework in Frameworks */,
+				0493908E174DE79B003497C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0493907D174DE79B003497C2 = {
+			isa = PBXGroup;
+			children = (
+				049390B7174E014C003497C2 /* GoogleTalk.h */,
+				049390B8174E014C003497C2 /* GoogleTalk.m */,
+				049390B5174DF892003497C2 /* AVFoundation.framework */,
+				0493908F174DE79B003497C2 /* sound_google */,
+				04939088174DE79B003497C2 /* Frameworks */,
+				04939087174DE79B003497C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04939087174DE79B003497C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04939086174DE79B003497C2 /* sound_google.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04939088174DE79B003497C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04939089174DE79B003497C2 /* UIKit.framework */,
+				0493908B174DE79B003497C2 /* Foundation.framework */,
+				0493908D174DE79B003497C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0493908F174DE79B003497C2 /* sound_google */ = {
+			isa = PBXGroup;
+			children = (
+				04939098174DE79B003497C2 /* AppDelegate.h */,
+				04939099174DE79B003497C2 /* AppDelegate.m */,
+				049390A1174DE79B003497C2 /* ViewController.h */,
+				049390A2174DE79B003497C2 /* ViewController.m */,
+				049390A4174DE79B003497C2 /* ViewController_iPhone.xib */,
+				049390A7174DE79B003497C2 /* ViewController_iPad.xib */,
+				04939090174DE79B003497C2 /* Supporting Files */,
+			);
+			path = sound_google;
+			sourceTree = "<group>";
+		};
+		04939090174DE79B003497C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04939091174DE79B003497C2 /* sound_google-Info.plist */,
+				04939092174DE79B003497C2 /* InfoPlist.strings */,
+				04939095174DE79B003497C2 /* main.m */,
+				04939097174DE79B003497C2 /* sound_google-Prefix.pch */,
+				0493909B174DE79B003497C2 /* Default.png */,
+				0493909D174DE79B003497C2 /* Default@2x.png */,
+				0493909F174DE79B003497C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04939085174DE79B003497C2 /* sound_google */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049390AC174DE79B003497C2 /* Build configuration list for PBXNativeTarget "sound_google" */;
+			buildPhases = (
+				04939082174DE79B003497C2 /* Sources */,
+				04939083174DE79B003497C2 /* Frameworks */,
+				04939084174DE79B003497C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sound_google;
+			productName = sound_google;
+			productReference = 04939086174DE79B003497C2 /* sound_google.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0493907E174DE79B003497C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.vanillabreeze;
+			};
+			buildConfigurationList = 04939081174DE79B003497C2 /* Build configuration list for PBXProject "sound_google" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0493907D174DE79B003497C2;
+			productRefGroup = 04939087174DE79B003497C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04939085174DE79B003497C2 /* sound_google */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04939084174DE79B003497C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04939094174DE79B003497C2 /* InfoPlist.strings in Resources */,
+				0493909C174DE79B003497C2 /* Default.png in Resources */,
+				0493909E174DE79B003497C2 /* Default@2x.png in Resources */,
+				049390A0174DE79B003497C2 /* Default-568h@2x.png in Resources */,
+				049390A6174DE79B003497C2 /* ViewController_iPhone.xib in Resources */,
+				049390A9174DE79B003497C2 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04939082174DE79B003497C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04939096174DE79B003497C2 /* main.m in Sources */,
+				0493909A174DE79B003497C2 /* AppDelegate.m in Sources */,
+				049390A3174DE79B003497C2 /* ViewController.m in Sources */,
+				049390B9174E014C003497C2 /* GoogleTalk.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04939092174DE79B003497C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04939093174DE79B003497C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		049390A4174DE79B003497C2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049390A5174DE79B003497C2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		049390A7174DE79B003497C2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049390A8174DE79B003497C2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049390AA174DE79B003497C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		049390AB174DE79B003497C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049390AD174DE79B003497C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sound_google/sound_google-Prefix.pch";
+				INFOPLIST_FILE = "sound_google/sound_google-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		049390AE174DE79B003497C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sound_google/sound_google-Prefix.pch";
+				INFOPLIST_FILE = "sound_google/sound_google-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04939081174DE79B003497C2 /* Build configuration list for PBXProject "sound_google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049390AA174DE79B003497C2 /* Debug */,
+				049390AB174DE79B003497C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049390AC174DE79B003497C2 /* Build configuration list for PBXNativeTarget "sound_google" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049390AD174DE79B003497C2 /* Debug */,
+				049390AE174DE79B003497C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0493907E174DE79B003497C2 /* Project object */;
+}
